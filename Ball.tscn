@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://d1ksu8wv3c3g8"]
+
+[ext_resource type="Texture2D" uid="uid://cxx76q7rvnm3v" path="res://icon.svg" id="1_gk6bx"]
+
+[node name="RigidBody2D" type="RigidBody2D" unique_id=559250055]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=414258904]
+texture = ExtResource("1_gk6bx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=687604182]
